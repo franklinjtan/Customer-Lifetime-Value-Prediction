@@ -27,15 +27,15 @@
 2. Identifying the features for prediction
 * Use RFM scores for each customer ID for feature set. In order to implement this correctly, we should divide our dataset. We will select a period of 3 months' worth of data, calculate the RFM scores, and then utilize them to predict the following 6 months. Therefore, our first step is to create two dataframes and add the RFM scores to them.'
 3. Importing necessary libraries and packages
-  3.1 Feature Engineering
+  * Feature Engineering
 4. Recency
-4.1 Assigning a recency score
-4.2 Ordering clusters
+  * Assigning a recency score
+  * Ordering clusters
 5. Revenue
-5.1 Revenue clusters
+  * Revenue clusters
 6. Overall score based on RFM clustering
 7. Customer Lifetime Value
-7.1 Feature engineering
+  * Feature engineering
 8 Machine Learning Model for CLV Prediction
 9. Final Clusters for CLV
 
