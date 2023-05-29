@@ -16,7 +16,6 @@
 * **By leveraging RFM analysis and CLV prediction, SoFi can optimize its customer acquisition, retention, and resource allocation strategies. It enables them to identify valuable customers, understand their behavior patterns, and tailor their services to meet their needs effectively, ultimately driving long-term growth and profitability.**
 
 ## Procedure
-1. Deciding on the timeframe
 * Deciding the timeframe for SoFi's Customer Lifetime Value (CLV) and RFM analysis involves considering the nature of the business, customer behavior patterns, and the availability of data. Here are some factors I considered when determining the timeframe:
   * Business Objectives: SoFi may have specific goals, such as increasing customer retention or identifying high-value customers, which can influence the timeframe chosen. For example, if SoFi aims to measure the long-term value of customers, a longer timeframe, such as several years, may be appropriate.
   * Product Lifecycle: Consider the average lifespan of SoFi's products and services. If the products have a short lifecycle or frequent upgrades, a shorter timeframe may be more relevant to capture customer behavior and purchase patterns accurately. On the other hand, if the products have a longer lifecycle, a longer timeframe may be necessary to assess customer value over time.
@@ -24,17 +23,17 @@
   * Data Availability and Quality: The availability and quality of historical customer data play a crucial role in determining the timeframe. SoFi should analyze the period for which reliable and comprehensive data is accessible. If there are limitations in data availability, it may be necessary to choose a shorter timeframe to ensure accurate analysis.
   * Customer Lifecycle: Consider the typical lifecycle of SoFi's customers, from initial acquisition to potential churn. The timeframe for CLV and RFM analysis should cover a significant portion of this lifecycle to capture key customer interactions and purchasing patterns.
   * **For the purposes of this project, we will go ahead use 6 months.**
-2. Identifying the features for prediction
-  2.1 Use RFM scores for each customer ID for feature set. In order to implement this correctly, we should divide our dataset. We will select a period of 3 months' worth of data, calculate the RFM scores, and then utilize them to predict the following 6 months. Therefore, our first step is to create two dataframes and add the RFM scores to them.'
-3. Importing necessary libraries and packages
-  3.1 Feature Engineering
-4. Recency
-  4.1 Assigning a recency score
-  4.2 Ordering clusters
-5. Revenue
-  5.1 Revenue clusters
-6. Overall score based on RFM clustering
-7. Customer Lifetime Value
-  7.1 Feature engineering
-8 Machine Learning Model for CLV Prediction
-9. Final Clusters for CLV
+* Identifying the features for prediction
+  * Use RFM scores for each customer ID for feature set. In order to implement this correctly, we should divide our dataset. We will select a period of 3 months' worth of data, calculate the RFM scores, and then utilize them to predict the following 6 months. Therefore, our first step is to create two dataframes and add the RFM scores to them.'
+* Importing necessary libraries and packages
+  * Feature Engineering
+* Recency
+  * Assigning a recency score
+  *  Ordering clusters
+* Revenue
+  * Revenue clusters
+* Overall score based on RFM clustering
+* Customer Lifetime Value
+  * Feature engineering
+* Machine Learning Model for CLV Prediction
+* Final Clusters for CLV
