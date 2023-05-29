@@ -1,5 +1,4 @@
 # Customer Lifetime Value Prediction
-![SoFi Logo](/images/sofi_customers.jpeg)
 ## About
 * Customer Lifetime Value (CLV) is a crucial metric for companies in the finance industry. It helps businesses understand the long-term value that each customer brings, enabling them to make informed decisions about customer acquisition, retention, and overall business strategy.
 * A key aspect of CLV prediction involves analyzing customer behavior and preferences. RFM analysis (Recency, Frequency, Monetary) is a method used to segment customers based on their purchase behavior. It evaluates three key aspects: recency, frequency, and monetary value.
