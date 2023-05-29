@@ -23,8 +23,8 @@
   * Data Availability and Quality: The availability and quality of historical customer data play a crucial role in determining the timeframe. SoFi should analyze the period for which reliable and comprehensive data is accessible. If there are limitations in data availability, it may be necessary to choose a shorter timeframe to ensure accurate analysis.
   * Customer Lifecycle: Consider the typical lifecycle of SoFi's customers, from initial acquisition to potential churn. The timeframe for CLV and RFM analysis should cover a significant portion of this lifecycle to capture key customer interactions and purchasing patterns.
   * **For the purposes of this project, we will go ahead use 6 months.**
-* Identifying the features for prediction
-  * Use RFM scores for each customer ID for feature set. In order to implement this correctly, we should divide our dataset. We will select a period of 3 months' worth of data, calculate the RFM scores, and then utilize them to predict the following 6 months. Therefore, our first step is to create two dataframes and add the RFM scores to them.'
+1. Identifying the features for prediction
+  - Use RFM scores for each customer ID for feature set. In order to implement this correctly, we should divide our dataset. We will select a period of 3 months' worth of data, calculate the RFM scores, and then utilize them to predict the following 6 months. Therefore, our first step is to create two dataframes and add the RFM scores to them.'
 * Importing necessary libraries and packages
   * Feature Engineering
 * Recency
