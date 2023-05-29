@@ -1,5 +1,5 @@
 # Customer Lifetime Value Prediction
-![SoFi Logo](/images/Sofi Logo.jpeg)
+![SoFi Logo](/images/SoFi_Logo.png)
 ## About
 * Customer Lifetime Value (CLV) is a crucial metric for companies like SoFi (Social Finance). SoFi is a modern finance company that provides a range of financial products and services, including student loan refinancing, personal loans, mortgages, investing, and banking. CLV helps SoFi understand the long-term value that each customer brings to the company, enabling them to make informed decisions about customer acquisition, retention, and overall business strategy. <br>
 * SoFi's business model revolves around building long-term relationships with its customers. By offering a diverse range of financial products and services, they aim to become a one-stop solution for their customers' financial needs. To achieve this, SoFi needs to identify and segment their customers based on their behavior patterns and preferences. **This is where RFM analysis (Recency, Frequency, Monetary) and CLV prediction play a vital role.**
